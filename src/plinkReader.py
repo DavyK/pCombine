@@ -37,7 +37,7 @@ class plinkReader(object):
                 offset = ((v.count-1)*self.nBytesPerRead)+3
                 self.bed.seek(offset,0)
                 self.currBytes = self.bed.read(self.nBytesPerRead)
-                print list(self.convert())
+                #print list(self.convert())
                 for j, gt in enumerate(self.convert()): onChrgenotypes[i, j] = gt
             genotypeArray.append(onChrgenotypes)
         return genotypeArray
