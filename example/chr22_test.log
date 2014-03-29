@@ -1,0 +1,47 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
+Writing this text to log file [ chr22_test.log ]
+Analysis started: Mon Feb 10 14:48:59 2014
+
+Options in effect:
+	--bfile chr22_test
+	--allow-no-sex
+	--assoc
+	--out chr22_test
+
+Reading map (extended format) from [ chr22_test.bim ] 
+8357 markers to be included from [ chr22_test.bim ]
+Reading pedigree information from [ chr22_test.fam ] 
+183 individuals read from [ chr22_test.fam ] 
+183 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+85 cases, 98 controls and 0 missing
+0 males, 0 females, and 183 of unspecified sex
+Warning, found 183 individuals with ambiguous sex codes
+Writing list of these individuals to [ chr22_test.nosex ]
+Reading genotype bitfile from [ chr22_test.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Before frequency and genotyping pruning, there are 8357 SNPs
+183 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 8357 SNPs
+After filtering, 85 cases, 98 controls and 0 missing
+After filtering, 0 males, 0 females, and 183 of unspecified sex
+Writing main association results to [ chr22_test.assoc ] 
+
+Analysis finished: Mon Feb 10 14:48:59 2014
+

@@ -1,0 +1,30 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
+Writing this text to log file [ chr22_test_annot.log ]
+Analysis started: Mon Feb 10 14:50:07 2014
+
+Options in effect:
+	--annotate chr22_test.assoc
+	  ranges=glist-hg18.txt
+	--out chr22_test_annot
+
+Reading input from [ chr22_test.assoc ]
+Writing annotated file to [ chr22_test_annot.annot ]
+Reading list of ranges from [ glist-hg18.txt ]
+Allowing a 0 kb window around each range
+Added 19058 distinct ranges to 18657 sets
+Processed 8357 rows, 3596 of which were annotated
+
+Analysis finished: Mon Feb 10 14:50:09 2014
+
